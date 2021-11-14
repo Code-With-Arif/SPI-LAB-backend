@@ -17,7 +17,7 @@ process.env.SERVER_ROOT = path.resolve(__dirname);
  */
 const express = require("express");
 const app = express();
-const http = require("http");
+const http = require("https");
 const server = http.createServer(app);
 
 /**
